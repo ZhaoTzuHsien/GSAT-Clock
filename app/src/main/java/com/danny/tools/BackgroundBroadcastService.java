@@ -1,4 +1,4 @@
-package com.danny.tools.views;
+package com.danny.tools;
 import android.app.*;
 import android.content.*;
 import android.os.*;
