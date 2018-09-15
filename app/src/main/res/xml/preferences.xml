@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/android">
+	<android.support.v14.preference.SwitchPreference 
+		android:key="battery_save_mode"
+		android:title="@string/prefs_battery_save_mode"
+		android:summaryOff="@string/prefs_battery_save_mode_summary_off"
+		android:summaryOn="@string/prefs_battery_save_mode_summary_on"
+		android:defaultValue="false"/>
+	
+	<Preference 
+		android:key="date_picker"
+		android:title="@string/prefs_date_picker_title"
+		android:summary="@string/prefs_date_picker_summary"/>
+	
+	<Preference
+		android:key="time_picker"
+		android:title="@string/prefs_time_picker_title"
+		android:summary="@string/prefs_time_picker_summary"/>
+	
+	<Preference
+		android:key="check_update"
+		android:title="@string/prefs_check_update_title"
+		android:summary="@string/prefs_check_update_summary"/>
+	
+	<Preference
+		android:key="update_log"
+		android:title="@string/prefs_update_log"/>
+	
+	<Preference
+		android:title="@string/prefs_info"
+		android:summary="@string/prefs_info_summary"/>
+</PreferenceScreen>

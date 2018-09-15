@@ -54,6 +54,6 @@ public class RebootBroadcastService extends Service
 		alarmManager.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), penIt);
 		//alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), 1000, penIt);
 
-		MyAppWidget.saveAlarmManager(alarmManager, penIt);
+		//MyAppWidget.saveAlarmManager(alarmManager, penIt);
 	}
 }

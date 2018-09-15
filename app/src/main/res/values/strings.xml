@@ -3,4 +3,28 @@
 
     <string name="app_name">GSAT Clock</string>
     <string name="hello_world">Hello world!</string>
+	<string name="prefs_battery_save_mode">Battery Save Mode</string>
+	<string name="prefs_battery_save_mode_summary_off">The widget will update more precisely, but it will drain more battery.</string>
+	<string name="prefs_battery_save_mode_summary_on">The widget will update less precisely, but it will save more battery.</string>
+	<string name="prefs_date_picker_title">Goal Day</string>
+	<string name="prefs_date_picker_summary">Choose the date that is set to calculate the rest days</string>
+	<string name="prefs_time_picker_title">Goal Time</string>
+	<string name="prefs_time_picker_summary">Choose the time that is set to calculate the rest time</string>
+	<string name="prefs_check_update_title">Check Update</string>
+	<string name="prefs_check_update_summary">Current version: </string>
+	<string name="prefs_update_log">Update Log</string>
+	<string name="prefs_developer_options">Developer Options</string>
+	<string name="prefs_info">Info</string>
+	<string name="prefs_info_summary">Developer: @Danny Zhao</string>
+	<string name="update_log1">-v1.0.0\n\tFirst official release apk</string>
+	<string name="update_log2">-v1.1.1\n\tAdd Widget</string>
+	<string name="update_log3">-v1.1.2\n\tLet Widget Update Periodically</string>
+	<string name="update_log4">-v1.1.3\n\tProvide Reboot Update</string>
+	<string name="update_log5">-v1.2.0\n\tAdd widget configuration\n\tBetter service support for updating widget\n\tLet user change the base date and time\n\tAdd Battery Save Mode\n\tAdd developer info</string>
+	<string name="update_log6">-v1.2.1\n\tImprove the performance of requesting permission\n\tRepair the problem of SAVE BATTERY MODE\'s default value</string>
+	<string name="update_log7">-v1.2.2\n\tImprove the performance of background service\n\tAdd support to widget click event, now user can simply click the widget to open setting page</string>
+	<string name="check_update_dialog_title">Update Found</string>
+	<string name="check_update_dialog_message">A new version %1$s has found. Are you sure to update now?</string>
+	<string name="latest_version_toast">It is latest version</string>
+	<string name="internet_disconnect">Internet Disconnect</string>
 </resources>
